@@ -256,7 +256,7 @@ if comparison_table.empty:
 st.write(
     comparison_table
         .set_index('player_name')
-        .round(2).rename(columns=lambda x: x[2:].replace('_', ' ').title(),
+        .round(2).rename(columns=lambda x: x[2:].replace('_', ' ').title(),)
         .rename_axis('player_name'.replace('_', ' ').title())  # dynamically rename header
         )
 
