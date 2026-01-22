@@ -8,7 +8,7 @@ from scipy import stats  # for z-score
 
 st.set_page_config(page_title="France 2018 WC Final – Paul Pogba Analysis", layout="wide")
 
-st.title("Test Analysis on Paul Pogba's Performance - 2018 FIFA World Cup Final")
+st.title("Analysis on Paul Pogba's Performance - 2018 FIFA World Cup Final")
 st.subheader("Created by Otema Yirenkyi")
 
 # ------------------------------------------------------------
